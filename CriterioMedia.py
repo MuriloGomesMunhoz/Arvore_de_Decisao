@@ -30,7 +30,7 @@ def criterioMedia():
     plt.figure(figsize=(100, 6.5))
     tree.plot_tree(Arvore,feature_names=['preg' , 'plas', 'pres', 'skin', 'insu', 'mass', 'pedi', 'age'],class_names=['tested_negative', 'tested_positive'],
                    filled=True, rounded=True)
-    plt.show()
+    #plt.show()
 
     fig, ax = plt.subplots(figsize=(25, 10))
     metrics.plot_confusion_matrix(Arvore,features,target,display_labels=['tested_negative', 'tested_positive'], values_format='d', ax=ax)
