@@ -1,0 +1,22 @@
+@relation Escola
+@attribute NotaGeral numeric
+@attribute Aproveitamento numeric
+@attribute StatusAluno { Passou, Recuperacao, Reprovado }
+@data
+%
+% 14 Instancias
+%
+85, 85, Passou
+80, 90, Passou
+83, 86, Recuperacao
+70, 96, Reprovado
+68, 80, Reprovado
+65, 70, Reprovado
+64, 65, Recuperacao
+72, 95, Passou
+69, 700, Passou
+75, 80, Reprovado
+75, 70, Passou
+72, 90, Recuperacao
+81, 75, Recuperacao
+71, 91, Reprovado
